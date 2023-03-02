@@ -1,0 +1,126 @@
+.nft-head h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 1%;
+    
+}
+.nft-head p{
+    font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 188.5%;
+}
+.nft-box{
+
+}
+.nft-para p{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 188.5%;
+
+}
+.nft-slider img{
+    width: 70%;
+}
+
+.swiper-slide {
+    text-align: unset;
+    font-size: 18px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+.nft-line{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.nft-line h1{
+    font-style: normal;
+font-weight: 800;
+font-size: 54px;
+line-height: 107%;
+}
+.nft-line img{
+    width: 61%;
+    height: 3px;
+}
+.nft-list li{
+    list-style: circle;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+.nft-slide{
+    text-align: center;
+    align-items: center;
+    padding: 21%;
+}
+
+.nft-1{
+    width: 60% !important;
+    margin-top: 20%;
+}
+.nft-2{
+    width: 70% !important;
+}
+.nft-3{
+    margin-top: 50%;
+}
+.nft-4{
+    width: 100% !important;
+    margin-top: 15%;
+}
+.nft-5{
+    width: 85% !important;
+}
+@media (max-width:768px) {
+    .nft-head h1 {
+        font-size: 48px;
+    }
+
+    .nft-head p {
+        font-size: 16px;
+        
+    }
+    .nft-line h1 {
+        font-size: 34px;
+        text-align: center;
+        margin: auto;
+    }
+    .nft-line img {
+        width: 54%;
+        display: none;
+        
+    }
+    .nft-para p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 125.5%;
+      }
+    
+}
